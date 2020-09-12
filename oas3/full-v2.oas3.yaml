@@ -2171,7 +2171,7 @@ components:
         email:
           type: string
         name:
-          $ref: "#/components/schemas/Name"
+          $ref: "#/components/schemas/AdminName"
         schools:
           type: array
           x-validation: true
@@ -2182,6 +2182,11 @@ components:
         title:
           type: string
           nullable: true
+        department:
+          type: string
+          nullable: true
+        ext:
+          type: object
     District:
       type: object
       properties:
@@ -2239,13 +2244,6 @@ components:
             type: string
         district_contact:
           $ref: "#/components/schemas/DistrictAdmin"
-        goals_enabled:
-          type: string
-          x-validation: true
-          enum:
-            - Y
-            - N
-            - ""
     DistrictAdmin:
       type: object
       properties:
@@ -2253,7 +2251,7 @@ components:
           type: string
           x-validation: true
         name:
-          $ref: "#/components/schemas/Name"
+          $ref: "#/components/schemas/AdminName"
         email:
           type: string
         title:
@@ -2269,6 +2267,15 @@ components:
           type: string
           nullable: true
         middle:
+          type: string
+          nullable: true
+        last:
+          type: string
+          nullable: true
+    AdminName:
+      type: object
+      properties:
+        first:
           type: string
           nullable: true
         last:

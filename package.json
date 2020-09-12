@@ -11,11 +11,11 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "@stoplight/prism-cli": "^3.3.0",
+    "@stoplight/prism-cli": "^4.0.1",
     "api-spec-converter": "^2.11.0",
     "npm-check": "^5.9.2",
+    "speccy": "^0.11.0",
     "swagger-merger": "^1.4.3",
-    "swagger2openapi": "^5.3.4",
-    "speccy": "^0.11.0"
+    "swagger2openapi": "^7.0.0"
   }
 }
