@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "@stoplight/prism-cli": "^4.0.1",
+    "@stoplight/prism-cli": "^5.4.0",
     "api-spec-converter": "^2.11.2",
     "npm-check": "^5.9.2",
     "speccy": "^0.11.0",
